@@ -43,7 +43,7 @@ public class Main {
 			            System.out.println("Input candidate's name [5..20]: ");
 			            name = scan.nextLine();
 			            if (name.isEmpty()) {
-			    			System.out.println("No recipes!");
+			    			System.out.println("No candidate!");
 			         }
 			        }while  (!name.contains(" ") || name.length()< 5 || name.length()> 20);
 			    
